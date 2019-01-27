@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.detailHeading {
+  float: left;
+  width: 100%;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+}
+
+.pageDescription {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.padding-6 {
+  padding: 6px !important;
+}
+
+.margin-2 {
+  margin: 2px !important;
+}
+
+
+.header-bg{
+  background-color:rgb(240,81,59) !important;
+  border-radius: 0 !important;
+}
+
+.whiteFont{
+  color: white !important;
+}
+
+.tomatoFont{
+  color: rgb(240,81,59) !important;
+}
+
+.boldFont{
+  font-weight: 600 !important;
+}
+
+.carouselContainer{
+  width: 90%;
+  align-self: center !important;
+  align-content: center !important;
+  align-items: center !important;
+  margin : 5% auto;
+}
