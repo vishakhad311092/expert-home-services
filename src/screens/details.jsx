@@ -4,28 +4,28 @@ import Description from "../comp/description.jsx";
 import Units from "../comp/units.jsx";
 import { withRouter } from "react-router-dom";
 class Details extends React.Component {
-
-  constructor(props){
-      super(props);
-      this.state = {selectedService: this.props.location.state};
+  constructor(props) {
+    super(props);
+    this.state = { selectedService: this.props.location.state };
   }
 
   render() {
     const panes = [
       {
-        menuItem: "Tab 1",
+        menuItem: "Option 1",
         render: () => (
           <Tab.Pane attached={false}>
-            <p>
-              <Units />
-            </p>
-            <p>SubTotal: </p>
+            <Units cost={10} unitCount={1} />
           </Tab.Pane>
         )
       },
       {
-        menuItem: "Tab 2",
-        render: () => <Tab.Pane attached={false}>Tab 2 Content</Tab.Pane>
+        menuItem: "Option 2",
+        render: () => (
+          <Tab.Pane attached={false}>
+            <b className="font-size-18">Upcoming</b>
+          </Tab.Pane>
+        )
       }
     ];
 
